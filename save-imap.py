@@ -35,7 +35,7 @@ def getargs():
 
     server, username = options["--server"], options["--username"]
     password = options.get("--password") or getpass()
-    return username, password,server
+    return username, password, server
 
 
 def main(username, password, host, folders):
